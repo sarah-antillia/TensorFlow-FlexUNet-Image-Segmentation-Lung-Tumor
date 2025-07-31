@@ -70,7 +70,6 @@ Modality: CT<br>
 Size: 96 3D volumes (64 Training + 32 Testing)<br>
 Source: The Cancer Imaging Archive<br>
 Challenge: Segmentation of a small target (cancer) in a large image<br>
-
 <br>
 <h3>
 <a id="2">
@@ -206,7 +205,6 @@ epoch_change_infer       = True
 epoch_change_infer_dir   =  "./epoch_change_infer"
 num_infer_images         = 6
 </pre>
-
 By using this callback, on every epoch_change, the inference procedure can be called
  for 6 images in <b>mini_test</b> folder. This will help you confirm how the predicted mask changes 
  at each epoch during your training process.<br> <br> 
